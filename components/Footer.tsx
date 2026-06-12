@@ -5,10 +5,10 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div>
-        <div className="footer-logo">
+        <Link href="/" className="footer-logo">
           <Logo />
           <span>Anna Mithra</span>
-        </div>
+        </Link>
         <p>A friend at every meal.</p>
       </div>
       <div className="cols">

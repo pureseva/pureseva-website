@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 const campaignTypes = [
   {
     title: "Single-Day Sponsorship",
-    body: "A donor funds breakfast, lunch, or dinner for one day at our community kitchen in Vijayawada.",
+    body: "A donor funds a day of food service at our community kitchen in Vijayawada.",
   },
   {
-    title: "Festival Meals",
-    body: "Sponsorships tied to Sankranti, Ugadi, Vinayaka Chaturthi — with traditional menus.",
+    title: "Festival & Occasion Meals",
+    body: "Sponsorships tied to festivals, milestones, and the moments that matter to the donor.",
   },
   {
     title: "Memorial Campaigns",
@@ -22,22 +22,22 @@ const campaignTypes = [
   },
 ];
 
-const meals = [
+const promises = [
   {
-    title: "Breakfast",
-    body: "Idli, upma, pongal — served with chutney and sambar.",
+    title: "Freshly Prepared",
+    body: "Cooked the same day in shared community kitchens, sourced where possible from local farmers and producers.",
   },
   {
-    title: "Lunch",
-    body: "Rice, sambar, rasam, curry, and curd. A full Andhra thali.",
+    title: "For Every Occasion",
+    body: "Everyday food, festival spreads, or a menu a sponsor has in mind — we cook for the moment that matters.",
   },
   {
-    title: "Dinner",
-    body: "Rice or chapati with curry, dal, and curd.",
+    title: "Warm and On Time",
+    body: "Food arrives when it is promised, in the name of the person who made it possible.",
   },
   {
-    title: "Festival & Sponsored Menus",
-    body: "Pongal, payasam, and traditional sweets on festival days. Donors may request specific dishes within seasonal availability.",
+    title: "Be There in Person",
+    body: "Sponsors are welcome to visit and stay with us through the whole day — from preparing the food to serving it to every guest.",
   },
 ];
 
@@ -63,9 +63,9 @@ export default function AboutPage() {
           sit down to an empty plate, and no one should eat alone.
         </p>
         <p>
-          Our model is simple. Donors sponsor a meal — breakfast, lunch, or
-          dinner — in their own name. Anna Mithra prepares the food and serves
-          it on their behalf, with the dignity their gesture deserves.
+          Our model is simple. Donors sponsor a meal in their own name. Anna
+          Mithra prepares the food and serves it on their behalf, with the
+          dignity their gesture deserves.
         </p>
         <p>
           We serve regardless of caste, faith, language, or status. The table
@@ -91,17 +91,17 @@ export default function AboutPage() {
           ))}
         </div>
 
-        <h2>What We Serve</h2>
+        <h2>How We Serve</h2>
         <p>
-          Our food is prepared fresh in shared community kitchens, sourced
-          where possible from local farmers and millers. We measure success in
-          meals served on time — and in donors who return to sponsor again.
+          We keep our food services broad on purpose — whatever the occasion
+          calls for, prepared fresh and served with care. We measure success in
+          meals served on time, and in donors who return to sponsor again.
         </p>
         <div className="locations">
-          {meals.map((meal) => (
-            <div className="location" key={meal.title}>
-              <h4>{meal.title}</h4>
-              <p>{meal.body}</p>
+          {promises.map((promise) => (
+            <div className="location" key={promise.title}>
+              <h4>{promise.title}</h4>
+              <p>{promise.body}</p>
             </div>
           ))}
         </div>

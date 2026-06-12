@@ -54,8 +54,18 @@ const MENUS: Record<SlotId, string[]> = {
 
 const CAMPAIGN_TYPES = [
   "Single-day sponsorship",
+  "Weekly sponsorship",
+  "Monthly sponsorship",
   "Festival meal program",
-  "Memorial / Dedication campaign",
+];
+
+const OCCASIONS = [
+  "Birthday / Anniversary",
+  "Festival or celebration",
+  "In memory of a loved one",
+  "Wedding / Special occasion",
+  "Thanksgiving / Gratitude",
+  "Just to give back",
 ];
 
 const CUSTOM = "__custom__";
@@ -71,6 +81,8 @@ export default function SponsorForm() {
   const [date, setDate] = useState("");
   const [area, setArea] = useState("");
   const [campaignType, setCampaignType] = useState(CAMPAIGN_TYPES[0]);
+  const [occasion, setOccasion] = useState(OCCASIONS[0]);
+  const [customOccasion, setCustomOccasion] = useState("");
   const [dedication, setDedication] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
@@ -85,6 +97,8 @@ export default function SponsorForm() {
     setDate("");
     setArea("");
     setCampaignType(CAMPAIGN_TYPES[0]);
+    setOccasion(OCCASIONS[0]);
+    setCustomOccasion("");
     setDedication("");
   }
 
@@ -99,6 +113,8 @@ export default function SponsorForm() {
     const slotInfo = MEAL_SLOTS.find((s) => s.id === slot)!;
     const menu =
       menuItem === CUSTOM ? `Customized: ${customMenu || "(to discuss)"}` : menuItem;
+    const occasionValue =
+      occasion === CUSTOM ? customOccasion || "(to discuss)" : occasion;
 
     // Log to Google Sheets (fire-and-forget; never blocks the WhatsApp redirect).
     if (SHEETS_WEBHOOK_URL) {
@@ -117,6 +133,7 @@ export default function SponsorForm() {
           date,
           area,
           campaignType,
+          occasion: occasionValue,
           dedication,
         }),
       }).catch(() => {
@@ -136,6 +153,7 @@ export default function SponsorForm() {
       date ? `Preferred date: ${date}` : null,
       `Location: Vijayawada${area ? ` (${area})` : ""}`,
       `Campaign type: ${campaignType}`,
+      `Occasion / Purpose: ${occasionValue}`,
       dedication ? `Notes: ${dedication}` : null,
     ].filter((line) => line !== null);
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
@@ -296,6 +314,32 @@ export default function SponsorForm() {
             </option>
           ))}
         </select>
+      </div>
+
+      <div className="form-group">
+        <label htmlFor="occasion">Occasion / Purpose</label>
+        <select
+          id="occasion"
+          value={occasion}
+          onChange={(e) => setOccasion(e.target.value)}
+        >
+          {OCCASIONS.map((item) => (
+            <option key={item} value={item}>
+              {item}
+            </option>
+          ))}
+          <option value={CUSTOM}>Other (please specify)</option>
+        </select>
+        {occasion === CUSTOM && (
+          <input
+            type="text"
+            placeholder="Tell us the occasion or purpose..."
+            value={customOccasion}
+            onChange={(e) => setCustomOccasion(e.target.value)}
+            autoFocus
+            style={{ marginTop: 8 }}
+          />
+        )}
       </div>
 
       <div className="form-group">

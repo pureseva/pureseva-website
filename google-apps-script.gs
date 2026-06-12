@@ -42,7 +42,8 @@ function doPost(e) {
     sheet.appendRow([
       'Timestamp', 'Name', 'Phone', 'Email', 'City',
       'Meal', 'Slot Time', 'Menu', 'Preferred Date',
-      'Location', 'Area Preference', 'Campaign Type', 'Additional Notes',
+      'Location', 'Area Preference', 'Campaign Type', 'Occasion / Purpose',
+      'Additional Notes',
     ]);
     sheet.setFrozenRows(1);
   }
@@ -60,6 +61,7 @@ function doPost(e) {
     'Vijayawada',
     safe(data.area),
     safe(data.campaignType),
+    safe(data.occasion),
     safe(data.dedication),
   ]);
 

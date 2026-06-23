@@ -114,7 +114,7 @@ body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-web
 .footer .col h4{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--khadi);margin-bottom:10px}
 .footer .col p,.footer .col a{display:block;margin-bottom:4px;line-height:1.5}
 
-/* ─── PAGE HEADER (Sponsor) ─── */
+/* ─── PAGE HEADER (Gift) ─── */
 .page-header{background:var(--bark);text-align:center;padding:60px 60px 48px}
 .page-header h1{font-family:var(--font-display);font-size:44px;font-weight:300;color:var(--khadi);margin-bottom:8px}
 .page-header p{color:var(--sand);font-size:16px}

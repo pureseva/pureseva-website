@@ -53,9 +53,9 @@ const MENUS: Record<SlotId, string[]> = {
 };
 
 const CAMPAIGN_TYPES = [
-  "Single-day sponsorship",
-  "Weekly sponsorship",
-  "Monthly sponsorship",
+  "Single-day gift",
+  "Weekly gifting",
+  "Monthly gifting",
   "Festival meal program",
 ];
 
@@ -70,7 +70,7 @@ const OCCASIONS = [
 
 const CUSTOM = "__custom__";
 
-export default function SponsorForm() {
+export default function GiftForm() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -141,7 +141,7 @@ export default function SponsorForm() {
       });
     }
     const lines = [
-      "New meal sponsorship request — Anna Mithra",
+      "New meal gift request — Anna Mithra",
       "",
       `Name: ${name}`,
       `Phone: ${phone}`,
@@ -170,7 +170,7 @@ export default function SponsorForm() {
     <form className="form-section" onSubmit={handleSubmit}>
       <h2>Your Details</h2>
       <p className="sub">
-        Tell us a little about yourself so we can coordinate the sponsorship.
+        Tell us a little about yourself so we can coordinate your gift.
       </p>
 
       <div className="form-row">
@@ -219,7 +219,7 @@ export default function SponsorForm() {
       </div>
 
       <h2 style={{ marginTop: 40 }}>Meal Details</h2>
-      <p className="sub">Pick the meal slot you&apos;d like to sponsor.</p>
+      <p className="sub">Pick the meal slot you&apos;d like to gift.</p>
 
       <div className="meal-slots" role="radiogroup" aria-label="Meal slot">
         {MEAL_SLOTS.map((s) => (
@@ -361,13 +361,13 @@ export default function SponsorForm() {
           <strong>Thank you! Your request has been recorded.</strong>
           <br />
           Please press <em>Send</em> in the WhatsApp chat we opened to complete
-          it — we&apos;ll confirm your sponsorship within 24 hours. The form
-          has been cleared in case you&apos;d like to sponsor another meal.
+          it — we&apos;ll confirm your gift within 24 hours. The form
+          has been cleared in case you&apos;d like to gift another meal.
         </div>
       ) : (
         <p className="form-note">
           Your details will be sent to our team via WhatsApp. We&apos;ll
-          confirm your sponsorship within 24 hours.
+          confirm your gift within 24 hours.
         </p>
       )}
     </form>

@@ -20,8 +20,8 @@ export default function Nav() {
             <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="/sponsor" className="cta-btn">
-              Sponsor a Meal
+            <Link href="/gift" className="cta-btn">
+              Gift a Meal
             </Link>
           </li>
         </ul>

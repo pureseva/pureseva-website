@@ -22,7 +22,7 @@ const notoSansTelugu = Noto_Sans_Telugu({
 export const metadata: Metadata = {
   title: "Anna Mithra — A friend at every meal.",
   description:
-    "Anna Mithra is a community-led platform for sponsored meal distributions in Vijayawada, Andhra Pradesh. Sponsor a meal in your name — we cook it, serve it, and make sure no neighbor sits down to an empty plate.",
+    "Anna Mithra is a community-led platform for gifted meal distributions in Vijayawada, Andhra Pradesh. Gift a meal in your name — we cook it, serve it, and make sure no neighbor sits down to an empty plate.",
 };
 
 export default function RootLayout({

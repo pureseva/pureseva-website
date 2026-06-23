@@ -9,16 +9,16 @@ export const metadata: Metadata = {
 
 const campaignTypes = [
   {
-    title: "Single-Day Sponsorship",
-    body: "A donor funds a day of food service at our community kitchen in Vijayawada.",
+    title: "Single-Day Gift",
+    body: "Gift a full day of food service at our community kitchen in Vijayawada.",
   },
   {
     title: "Festival & Occasion Meals",
-    body: "Sponsorships tied to festivals, milestones, and the moments that matter to the donor.",
+    body: "Gifts tied to festivals, milestones, and the moments that matter to you.",
   },
   {
     title: "Memorial Campaigns",
-    body: "Recurring distributions served in the name of a loved one, on dates that matter to the donor.",
+    body: "Recurring distributions served in the name of a loved one, on dates that matter to you.",
   },
 ];
 
@@ -29,7 +29,7 @@ const promises = [
   },
   {
     title: "For Every Occasion",
-    body: "Everyday food, festival spreads, or a menu a sponsor has in mind — we cook for the moment that matters.",
+    body: "Everyday food, festival spreads, or a menu you have in mind — we cook for the moment that matters.",
   },
   {
     title: "Warm and On Time",
@@ -37,7 +37,7 @@ const promises = [
   },
   {
     title: "Be There in Person",
-    body: "Sponsors are welcome to visit and stay with us through the whole day — from preparing the food to serving it to every guest.",
+    body: "You are welcome to visit and stay with us through the whole day — from preparing the food to serving it to every guest.",
   },
 ];
 
@@ -63,9 +63,9 @@ export default function AboutPage() {
           sit down to an empty plate, and no one should eat alone.
         </p>
         <p>
-          Our model is simple. Donors sponsor a meal in their own name. Anna
-          Mithra prepares the food and serves it on their behalf, with the
-          dignity their gesture deserves.
+          Our model is simple. You gift a meal in your own name. Anna
+          Mithra prepares the food and serves it on your behalf, with the
+          dignity your gesture deserves.
         </p>
         <p>
           We serve regardless of caste, faith, language, or status. The table
@@ -77,7 +77,7 @@ export default function AboutPage() {
 
         <h2>Our Approach</h2>
         <p>
-          Every Anna Mithra meal begins the same way: with a sponsor, a date,
+          Every Anna Mithra meal begins the same way: with a gift, a date,
           and the assumption that the person receiving the meal is a guest, not
           a recipient. We run three kinds of campaigns:
         </p>
@@ -95,7 +95,7 @@ export default function AboutPage() {
         <p>
           We keep our food services broad on purpose — whatever the occasion
           calls for, prepared fresh and served with care. We measure success in
-          meals served on time, and in donors who return to sponsor again.
+          meals served on time, and in those who return to gift again.
         </p>
         <div className="locations">
           {promises.map((promise) => (
@@ -110,8 +110,8 @@ export default function AboutPage() {
         <p>
           We currently serve in <strong>Vijayawada</strong>, Andhra Pradesh.
           Working in one city lets us keep every promise we make — meals
-          arrive warm, on time, and from kitchens we know personally. As our
-          community of sponsors grows, so will the neighborhoods we reach.
+          arrive warm, on time, and from kitchens we know personally. As more
+          people choose to gift, so will the neighborhoods we reach.
         </p>
 
         <h2>Our Team</h2>
@@ -138,7 +138,7 @@ export default function AboutPage() {
       <section className="cta-band">
         <h2>Be a friend to someone today.</h2>
         <div className="telugu-cta">ఈ రోజు ఎవరికైనా మిత్రుడు అవ్వండి.</div>
-        <Link href="/sponsor">Sponsor a Meal →</Link>
+        <Link href="/gift">Gift a Meal →</Link>
       </section>
     </main>
   );

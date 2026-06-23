@@ -13,7 +13,7 @@
  * 5. Copy the Web app URL (looks like
  *    https://script.google.com/macros/s/AKfycb.../exec)
  * 6. Paste that URL into SHEETS_WEBHOOK_URL in
- *    components/SponsorForm.tsx — then rebuild/redeploy the site.
+ *    components/GiftForm.tsx — then rebuild/redeploy the site.
  *
  * NOTE: If you later edit this script, you must "Deploy" →
  * "Manage deployments" → edit → "New version" for changes to go live.

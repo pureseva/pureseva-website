@@ -45,7 +45,7 @@ const steps = [
   {
     num: "3",
     title: "In Your Name",
-    body: "Every meal is served on behalf of the sponsor. Your generosity, their plate.",
+    body: "Every meal is served in your name. Your gift, their plate.",
   },
 ];
 
@@ -71,8 +71,8 @@ const meals = [
 ];
 
 const stats = [
-  { num: "1,200+", label: "Meals Served" },
-  { num: "45+", label: "Sponsors" },
+  { num: "1,200+", label: "Meals Gifted" },
+  { num: "45+", label: "Gifts Given" },
   { num: "1", label: "City — Vijayawada" },
   { num: "3", label: "Meal Slots Daily" },
 ];
@@ -103,11 +103,11 @@ export default function Home() {
             </h1>
             <div className="telugu-hero">ప్రతి భోజనంలో ఒక మిత్రుడు.</div>
             <p>
-              Sponsor a meal in your name. We cook it, serve it, and make sure
+              Gift a meal in your name. We cook it, serve it, and make sure
               no neighbor sits down to an empty plate.
             </p>
-            <Link href="/sponsor" className="hero-cta">
-              Sponsor a Meal →
+            <Link href="/gift" className="hero-cta">
+              Gift a Meal →
             </Link>
           </div>
           <div className="hero-side hero-side-right">
@@ -174,8 +174,8 @@ export default function Home() {
             to an empty plate.
           </p>
           <p>
-            Donors sponsor a meal in their own name. We prepare the food and
-            serve it on their behalf, with the dignity their gesture deserves.
+            You gift a meal in your own name. We prepare the food and serve it
+            on your behalf, with the dignity your gesture deserves.
           </p>
           <Link href="/about">Read our full story →</Link>
         </div>
@@ -184,7 +184,7 @@ export default function Home() {
       <section className="cta-band">
         <h2>Feed a neighbor today.</h2>
         <div className="telugu-cta">ఈ రోజు ఒక పొరుగువారికి భోజనం పెట్టండి.</div>
-        <Link href="/sponsor">Sponsor a Meal →</Link>
+        <Link href="/gift">Gift a Meal →</Link>
       </section>
     </main>
   );

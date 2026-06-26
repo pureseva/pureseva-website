@@ -8,8 +8,8 @@ export default function Nav() {
         <Link href="/" className="nav-logo">
           <Logo />
           <div>
-            <span className="name">Anna Mithra</span>
-            <span className="telugu">అన్న మిత్ర</span>
+            <span className="name">PureSeva</span>
+            <span className="telugu">ప్యూర్ సేవ</span>
           </div>
         </Link>
         <ul>

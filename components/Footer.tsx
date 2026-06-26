@@ -7,7 +7,7 @@ export default function Footer() {
       <div>
         <Link href="/" className="footer-logo">
           <Logo />
-          <span>Anna Mithra</span>
+          <span>PureSeva</span>
         </Link>
         <p>A friend at every meal.</p>
       </div>
@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="col">
           <h4>Contact</h4>
           <p>
-            <a href="mailto:hello@annamithra.org">hello@annamithra.org</a>
+            <a href="mailto:hello@pureseva.com">hello@pureseva.com</a>
           </p>
           <p>+91 XXXXX XXXXX</p>
           <p>Vijayawada, Andhra Pradesh, India</p>

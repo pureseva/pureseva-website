@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us — Anna Mithra",
+  title: "About Us — PureSeva",
   description:
-    "Anna Mithra is a food distribution initiative serving Vijayawada — to make sure no neighbor sits down to an empty plate.",
+    "PureSeva is a food distribution initiative serving Vijayawada — to make sure no one sits down to an empty plate.",
 };
 
 const campaignTypes = [
@@ -48,9 +48,9 @@ export default function AboutPage() {
         <div className="eyebrow">Our Story</div>
         <h1>A meal, a moment, a friend.</h1>
         <p>
-          Anna Mithra is a food distribution initiative serving Vijayawada. We
-          exist for a single reason — to make sure no neighbor of ours sits
-          down to an empty plate.
+          PureSeva is a food distribution initiative serving Vijayawada. We
+          exist for one reason — to make sure no one sits down to an empty
+          plate.
         </p>
       </div>
 
@@ -58,7 +58,7 @@ export default function AboutPage() {
         <h2>Who We Are</h2>
         <p>
           In Andhra, a meal has never only been about food. It is the moment a
-          stranger becomes a guest, and a guest becomes a friend. Anna Mithra
+          stranger becomes a guest, and a guest becomes a friend. PureSeva
           was founded on that same belief: that no one in our community should
           sit down to an empty plate, and no one should eat alone.
         </p>
@@ -77,7 +77,7 @@ export default function AboutPage() {
 
         <h2>Our Approach</h2>
         <p>
-          Every Anna Mithra meal begins the same way: with a gift, a date,
+          Every PureSeva meal begins the same way: with a gift, a date,
           and the assumption that the person receiving the meal is a guest, not
           a recipient. We run three kinds of campaigns:
         </p>
@@ -111,7 +111,7 @@ export default function AboutPage() {
           We currently serve in <strong>Vijayawada</strong>, Andhra Pradesh.
           Working in one city lets us keep every promise we make — meals
           arrive warm, on time, and from kitchens we know personally. As more
-          people choose to gift, so will the neighborhoods we reach.
+          people choose to gift, so will the areas we reach.
         </p>
 
         <h2>Our Team</h2>
@@ -128,7 +128,7 @@ export default function AboutPage() {
 
         <h2>Contact Us</h2>
         <p>
-          <a href="mailto:hello@annamithra.org">hello@annamithra.org</a> · +91
+          <a href="mailto:hello@pureseva.com">hello@pureseva.com</a> · +91
           XXXXX XXXXX
           <br />
           Vijayawada, Andhra Pradesh, India

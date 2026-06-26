@@ -20,9 +20,9 @@ const notoSansTelugu = Noto_Sans_Telugu({
 });
 
 export const metadata: Metadata = {
-  title: "Anna Mithra — A friend at every meal.",
+  title: "PureSeva — A friend at every meal.",
   description:
-    "Anna Mithra is a community-led platform for gifted meal distributions in Vijayawada, Andhra Pradesh. Gift a meal in your name — we cook it, serve it, and make sure no neighbor sits down to an empty plate.",
+    "PureSeva is a community-led platform for gifted meal distributions in Vijayawada, Andhra Pradesh. Gift a meal in your name — we cook it, serve it, and make sure no one sits down to an empty plate.",
 };
 
 export default function RootLayout({

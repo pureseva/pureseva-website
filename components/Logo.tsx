@@ -4,9 +4,9 @@ export default function Logo() {
       viewBox="0 0 240 240"
       fill="currentColor"
       role="img"
-      aria-label="Anna Mithra symbol — a wheat stalk rising from a bowl"
+      aria-label="PureSeva symbol — a wheat stalk rising from a bowl"
     >
-      <title>Anna Mithra</title>
+      <title>PureSeva</title>
       {/* Wheat stem */}
       <rect x="118" y="42" width="4" height="100" rx="2" />
       {/* Wheat grains: three paired leaves */}

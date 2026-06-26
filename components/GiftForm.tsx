@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-// Anna Mithra WhatsApp number (country code + number, digits only).
+// PureSeva WhatsApp number (country code + number, digits only).
 const WHATSAPP_NUMBER = "917013285018";
 
 // Google Apps Script Web App URL — logs each submission to the Google Sheet.
@@ -141,7 +141,7 @@ export default function GiftForm() {
       });
     }
     const lines = [
-      "New meal gift request — Anna Mithra",
+      "New meal gift request — PureSeva",
       "",
       `Name: ${name}`,
       `Phone: ${phone}`,

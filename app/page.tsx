@@ -103,8 +103,8 @@ export default function Home() {
             </h1>
             <div className="telugu-hero">ప్రతి భోజనంలో ఒక మిత్రుడు.</div>
             <p>
-              Gift a meal in your name. We cook it, serve it, and make sure
-              no neighbor sits down to an empty plate.
+              Gift a meal in your name. We cook it, we serve it, and we make
+              sure no one sits down to an empty plate.
             </p>
             <Link href="/gift" className="hero-cta">
               Gift a Meal →
@@ -169,9 +169,9 @@ export default function Home() {
           <div className="section-label">Our Story</div>
           <h2>A meal, a moment, a friend.</h2>
           <p>
-            Anna Mithra is a food distribution initiative serving Vijayawada.
-            We exist for a single reason — to make sure no neighbor sits down
-            to an empty plate.
+            PureSeva is a food distribution initiative serving Vijayawada.
+            We exist for one reason — to make sure no one sits down to an
+            empty plate.
           </p>
           <p>
             You gift a meal in your own name. We prepare the food and serve it
@@ -182,7 +182,7 @@ export default function Home() {
       </section>
 
       <section className="cta-band">
-        <h2>Feed a neighbor today.</h2>
+        <h2>Feed a hungry person today.</h2>
         <div className="telugu-cta">ఈ రోజు ఒక పొరుగువారికి భోజనం పెట్టండి.</div>
         <Link href="/gift">Gift a Meal →</Link>
       </section>

@@ -219,7 +219,7 @@ export default function GiftForm() {
       </div>
 
       <h2 style={{ marginTop: 40 }}>Meal Details</h2>
-      <p className="sub">Pick the meal slot you&apos;d like to gift.</p>
+      <p className="sub">Pick the meal you want to gift.</p>
 
       <div className="meal-slots" role="radiogroup" aria-label="Meal slot">
         {MEAL_SLOTS.map((s) => (
@@ -358,15 +358,15 @@ export default function GiftForm() {
       </button>
       {submitted ? (
         <div className="form-success" role="status">
-          <strong>Thank you! Your request has been recorded.</strong>
+          <strong>Thank you. We have recorded your request.</strong>
           <br />
           Please press <em>Send</em> in the WhatsApp chat we opened to complete
-          it — we&apos;ll confirm your gift within 24 hours. The form
-          has been cleared in case you&apos;d like to gift another meal.
+          it, and we will confirm your gift within 24 hours. We have cleared
+          the form in case you want to gift another meal.
         </div>
       ) : (
         <p className="form-note">
-          Your details will be sent to our team via WhatsApp. We&apos;ll
+          We will send your details to our team on WhatsApp, and we will
           confirm your gift within 24 hours.
         </p>
       )}

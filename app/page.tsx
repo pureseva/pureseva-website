@@ -35,17 +35,17 @@ const steps = [
   {
     num: "1",
     title: "Choose Your Meal",
-    body: "Pick breakfast, lunch, or dinner. Choose a date and a location that matters to you.",
+    body: "Pick breakfast, lunch, or dinner, choose a date, and a location that matters to you.",
   },
   {
     num: "2",
-    title: "We Prepare & Serve",
-    body: "Our community kitchens prepare fresh Andhra meals and serve them with warmth and dignity.",
+    title: "We Cook and Serve",
+    body: "Our community kitchens cook fresh Andhra meals, and we serve them with care to people who need them.",
   },
   {
     num: "3",
-    title: "In Your Name",
-    body: "Every meal is served in your name. Your gift, their plate.",
+    title: "Served in Your Name",
+    body: "We serve every meal in your name. Your seva, will help end hunger.",
   },
 ];
 
@@ -53,28 +53,27 @@ const meals = [
   {
     title: "Breakfast",
     telugu: "అల్పాహారం",
-    body: "Idli, upma, pongal — served with chutney and sambar. A warm start to the day.",
+    body: "Idli, upma, or pongal with chutney and sambar. A warm, filling start to the day.",
     photo: "[ Breakfast Photo ]",
   },
   {
     title: "Lunch",
     telugu: "భోజనం",
-    body: "Rice, sambar, rasam, curry, and curd. A full Andhra thali, served fresh.",
+    body: "A full Andhra bhojanam with rice, sambar, rasam, curry, and curd, cooked and served the same day.",
     photo: "[ Lunch Photo ]",
   },
   {
     title: "Dinner",
     telugu: "రాత్రి భోజనం",
-    body: "Rice or chapati with curry, dal, and curd. A comforting close to the day.",
+    body: "Rice or chapati with curry, dal, and curd. A simple, satisfying end to the day.",
     photo: "[ Dinner Photo ]",
   },
 ];
 
 const stats = [
-  { num: "1,200+", label: "Meals Gifted" },
+  { num: "1,200+", label: "Meals Served" },
   { num: "45+", label: "Gifts Given" },
-  { num: "1", label: "City — Vijayawada" },
-  { num: "3", label: "Meal Slots Daily" },
+  { num: "3", label: "Meals Served Daily" },
 ];
 
 export default function Home() {
@@ -95,16 +94,17 @@ export default function Home() {
             <HeroCarousel slides={heroSlidesLeft} sizes="(max-width: 900px) 1px, 380px" />
           </div>
           <div className="hero-copy">
-            <div className="eyebrow">Vijayawada · Andhra Pradesh</div>
+            <div className="eyebrow"> Andhra Pradesh</div>
             <h1>
-              A friend at
+              Pure seva,
               <br />
-              every meal.
+              made and served with care.
             </h1>
-            <div className="telugu-hero">ప్రతి భోజనంలో ఒక మిత్రుడు.</div>
+            <div className="telugu-hero">ప్రతి పనిలో స్వచ్ఛమైన సేవ.</div>
             <p>
-              Gift a meal in your name. We cook it, we serve it, and we make
-              sure no one sits down to an empty plate.
+              You gift a meal and we do the rest. We cook it fresh, carry it
+              across the city, and serve it warm to someone who needs it. We
+              give it in your name and ask for nothing back.
             </p>
             <Link href="/gift" className="hero-cta">
               Gift a Meal →
@@ -139,7 +139,7 @@ export default function Home() {
 
       <section className="meals">
         <div className="section-label">What We Serve</div>
-        <h2>Every meal, made with care</h2>
+        <h2>Every meal, made fresh</h2>
         <div className="meal-cards">
           {meals.map((meal) => (
             <div className="meal-card" key={meal.title}>
@@ -167,23 +167,22 @@ export default function Home() {
         <div className="img-placeholder">[ Community Photo ]</div>
         <div className="about-text">
           <div className="section-label">Our Story</div>
-          <h2>A meal, a moment, a friend.</h2>
+          <h2>Service you can see.</h2>
           <p>
-            PureSeva is a food distribution initiative serving Vijayawada.
-            We exist for one reason — to make sure no one sits down to an
-            empty plate.
+            We are PureSeva, a community food initiative. We
+            exist for one reason: to make sure no one goes to sleep hungry.
           </p>
           <p>
-            You gift a meal in your own name. We prepare the food and serve it
-            on your behalf, with the dignity your gesture deserves.
+            You gift a meal in your own name, and we cook and serve it for
+            you. It is pure seva, given freely and with care.
           </p>
           <Link href="/about">Read our full story →</Link>
         </div>
       </section>
 
       <section className="cta-band">
-        <h2>Feed a hungry person today.</h2>
-        <div className="telugu-cta">ఈ రోజు ఒక పొరుగువారికి భోజనం పెట్టండి.</div>
+        <h2>Feed someone today.</h2>
+        <div className="telugu-cta">ఈ రోజు ఒకరికి అన్నం పెట్టండి.</div>
         <Link href="/gift">Gift a Meal →</Link>
       </section>
     </main>

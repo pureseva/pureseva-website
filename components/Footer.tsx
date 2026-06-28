@@ -9,7 +9,7 @@ export default function Footer() {
           <Logo />
           <span>PureSeva</span>
         </Link>
-        <p>A friend at every meal.</p>
+        <p>Pure seva, made and served with care.</p>
       </div>
       <div className="cols">
         <div className="col">

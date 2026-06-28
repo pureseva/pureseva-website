@@ -20,9 +20,9 @@ const notoSansTelugu = Noto_Sans_Telugu({
 });
 
 export const metadata: Metadata = {
-  title: "PureSeva — A friend at every meal.",
+  title: "PureSeva — Pure seva, made and served with care.",
   description:
-    "PureSeva is a community-led platform for gifted meal distributions in Vijayawada, Andhra Pradesh. Gift a meal in your name — we cook it, serve it, and make sure no one sits down to an empty plate.",
+    "PureSeva is a community food initiative in Vijayawada, Andhra Pradesh. You gift a meal in your name, and we cook it, serve it, and make sure no one goes to sleep hungry.",
 };
 
 export default function RootLayout({

@@ -104,15 +104,15 @@ export default function AboutPage() {
 
         <h2>Where We Work</h2>
         <p>
-          We primarily serve in  <strong>Vijayawada</strong>, Andhra Pradesh. Staying in
-          one city lets us keep every promise we make. Meals arrive fresh, on
+          We primarily serve in  <strong>Andhra Pradesh</strong> and <strong>Telangana</strong>. Working
+          close to home lets us keep every promise we make. Meals arrive fresh, on
           time, and from kitchens we know personally. As more people give, the
-          more of the city we will reach.
+          more of the region we will reach.
         </p>
 
         <h2>Contact Us</h2>
         <p>
-          <a href="mailto:hello@pureseva.com">hello@pureseva.com</a> · +91
+          <a href="mailto:contactsus@pureseva.in">contactsus@pureseva.in</a> · +91
           XXXXX XXXXX
           <br />
           Vijayawada, Andhra Pradesh, India

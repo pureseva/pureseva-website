@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="col">
           <h4>Contact</h4>
           <p>
-            <a href="mailto:hello@pureseva.com">hello@pureseva.com</a>
+            <a href="mailto:contactsus@pureseva.in">contactsus@pureseva.in</a>
           </p>
           <p>+91 XXXXX XXXXX</p>
           <p>Vijayawada, Andhra Pradesh, India</p>

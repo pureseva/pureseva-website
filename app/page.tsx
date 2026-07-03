@@ -40,7 +40,7 @@ const steps = [
   {
     num: "2",
     title: "We Cook and Serve",
-    body: "Our community kitchens cook fresh Andhra meals, and we serve them with care to people who need them.",
+    body: "Our community kitchens cook fresh meals, and we serve them with care to people who need them.",
   },
   {
     num: "3",
@@ -59,7 +59,7 @@ const meals = [
   {
     title: "Lunch",
     telugu: "భోజనం",
-    body: "A full Andhra bhojanam with rice, sambar, rasam, curry, and curd, cooked and served the same day.",
+    body: "A full meal with rice or chapathi, sambar, rasam, curry, and curd, cooked and served the same day.",
     photo: "[ Lunch Photo ]",
   },
   {
@@ -94,7 +94,7 @@ export default function Home() {
             <HeroCarousel slides={heroSlidesLeft} sizes="(max-width: 900px) 1px, 380px" />
           </div>
           <div className="hero-copy">
-            <div className="eyebrow"> Andhra Pradesh</div>
+            <div className="eyebrow">Pure Seva, Pure Giving</div>
             <h1>
               Pure seva,
               <br />

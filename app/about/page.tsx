@@ -46,10 +46,10 @@ export default function AboutPage() {
     <main>
       <div className="about-hero">
         <div className="eyebrow">Our Story</div>
-        <h1>Service you can see.</h1>
+        <h1>A gift you can see.</h1>
         <p>
-          We are PureSeva, a community food initiative . We exist
-          for one reason: to make sure no one goes to sleep hungry.
+          We are PureSeva, a community food initiative. You gift a meal, and we
+          cook and serve it for you — so no one goes to sleep hungry.
         </p>
       </div>
 
@@ -120,7 +120,7 @@ export default function AboutPage() {
       </section>
 
       <section className="cta-band">
-        <h2>Make your seva count today.</h2>
+        <h2>Gift a meal today.</h2>
         <div className="telugu-cta">ఈ రోజు మీ సేవను అందించండి.</div>
         <Link href="/gift">Gift a Meal →</Link>
       </section>

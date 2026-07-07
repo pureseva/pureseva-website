@@ -13,8 +13,8 @@ export default function GiftPage() {
       <div className="page-header">
         <h1>Gift a Meal</h1>
         <p>
-          Choose a meal, pick a date, and we will cook and serve it in your
-          name across Vijayawada.
+          Choose a meal to gift, pick a date, and we will cook and serve it in
+          your name across Vijayawada.
         </p>
       </div>
       <GiftForm />

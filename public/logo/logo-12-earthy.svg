@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 76" width="100" height="76" role="img" aria-label="PureSeva mark — terracotta droplet in gold lotus">
+  <defs>
+    <linearGradient id="lg12" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E0BE74"/><stop offset="1" stop-color="#8C5A14"/></linearGradient>
+    <linearGradient id="dg12" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D06A3F"/><stop offset="1" stop-color="#9E3621"/></linearGradient>
+    <linearGradient id="ig12" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBEFD9" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity=".1"/></linearGradient>
+  </defs>
+  <g fill="url(#lg12)">
+    <g transform="rotate(-80 50 62)"><path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z"/></g>
+    <g transform="rotate(-44 50 62)"><path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z"/></g>
+    <path d="M50 62 C41 47 41 24 50 8 C59 24 59 47 50 62 Z"/>
+    <g transform="rotate(44 50 62)"><path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z"/></g>
+    <g transform="rotate(80 50 62)"><path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z"/></g>
+  </g>
+  <path d="M50 16 C42 31 38 42 38 50 C38 58 43 64 50 64 C57 64 62 58 62 50 C62 42 58 31 50 16 Z" fill="url(#dg12)"/>
+  <path d="M50 28 C46 35 44 42 44 48 C44 54 47 58 51 57 C48 52 48 45 50 39 C51 35 51 31 50 28 Z" fill="url(#ig12)"/>
+</svg>

@@ -9,7 +9,7 @@ const WHATSAPP_NUMBER = "917013285018";
 // Setup instructions: see google-apps-script.gs in the project root.
 // Leave empty to disable sheet logging.
 const SHEETS_WEBHOOK_URL =
-  "https://script.google.com/macros/s/AKfycbybkLm7kxHVyElOTcTO8sPptpATNih1sUZMy6hSptwhMbvCf1QBG77nIdaACQT7Gft7Qw/exec";
+  "https://script.google.com/macros/s/AKfycbxB4sChWw3ALEmeX2gh8PDzD_aMR-TY3wE4ZjUQVgrctyT4uWiUtjMxSk8i48F7-mIhXQ/exec";
 
 const MEAL_SLOTS = [
   { id: "breakfast", name: "Breakfast", time: "7:00 – 9:00 AM" },

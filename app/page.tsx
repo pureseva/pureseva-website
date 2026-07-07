@@ -34,18 +34,18 @@ const heroSlidesRight = [
 const steps = [
   {
     num: "1",
-    title: "Choose Your Meal",
-    body: "Pick breakfast, lunch, or dinner, choose a date, and a location that matters to you.",
+    title: "Choose Your Gift",
+    body: "Pick the meal you want to gift — breakfast, lunch, or dinner — then choose a date and a location that matters to you.",
   },
   {
     num: "2",
     title: "We Cook and Serve",
-    body: "Our community kitchens cook fresh meals, and we serve them with care to people who need them.",
+    body: "Our community kitchens cook your gifted meal fresh, and we serve it with care to people who need it.",
   },
   {
     num: "3",
-    title: "Served in Your Name",
-    body: "We serve every meal in your name. Your seva, will help end hunger.",
+    title: "Gifted in Your Name",
+    body: "Your gift is served in your name. One gifted meal at a time, your giving helps end hunger.",
   },
 ];
 
@@ -96,7 +96,7 @@ export default function Home() {
           <div className="hero-copy">
             <div className="eyebrow">Pure Seva, Pure Giving</div>
             <h1>
-              Pure seva,
+              Gift a meal,
               <br />
               made and served with care.
             </h1>
@@ -138,8 +138,8 @@ export default function Home() {
       </section>
 
       <section className="meals">
-        <div className="section-label">What We Serve</div>
-        <h2>Every meal, made fresh</h2>
+        <div className="section-label">What You Can Gift</div>
+        <h2>Every meal you gift, made fresh</h2>
         <div className="meal-cards">
           {meals.map((meal) => (
             <div className="meal-card" key={meal.title}>
@@ -167,21 +167,21 @@ export default function Home() {
         <div className="img-placeholder">[ Community Photo ]</div>
         <div className="about-text">
           <div className="section-label">Our Story</div>
-          <h2>Service you can see.</h2>
+          <h2>A gift you can see.</h2>
           <p>
             We are PureSeva, a community food initiative. We
             exist for one reason: to make sure no one goes to sleep hungry.
           </p>
           <p>
             You gift a meal in your own name, and we cook and serve it for
-            you. It is pure seva, given freely and with care.
+            you. It is a gift given freely, made and served with care.
           </p>
           <Link href="/about">Read our full story →</Link>
         </div>
       </section>
 
       <section className="cta-band">
-        <h2>Feed someone today.</h2>
+        <h2>Gift a meal today.</h2>
         <div className="telugu-cta">ఈ రోజు ఒకరికి అన్నం పెట్టండి.</div>
         <Link href="/gift">Gift a Meal →</Link>
       </section>

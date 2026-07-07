@@ -1,23 +1,49 @@
 export default function Logo() {
   return (
     <svg
-      viewBox="0 0 240 240"
-      fill="currentColor"
+      viewBox="0 0 100 76"
       role="img"
-      aria-label="PureSeva symbol — a wheat stalk rising from a bowl"
+      aria-label="PureSeva symbol — a saffron droplet resting in a green lotus"
     >
       <title>PureSeva</title>
-      {/* Wheat stem */}
-      <rect x="118" y="42" width="4" height="100" rx="2" />
-      {/* Wheat grains: three paired leaves */}
-      <path d="M118 54 C104 54 96 64 94 76 C108 76 116 70 118 62 Z" />
-      <path d="M122 54 C136 54 144 64 146 76 C132 76 124 70 122 62 Z" />
-      <path d="M118 76 C100 76 92 88 90 102 C106 102 116 94 118 84 Z" />
-      <path d="M122 76 C140 76 148 88 150 102 C134 102 124 94 122 84 Z" />
-      <path d="M118 100 C98 100 88 114 86 128 C104 128 116 118 118 108 Z" />
-      <path d="M122 100 C142 100 152 114 154 128 C136 128 124 118 122 108 Z" />
-      {/* Bowl: filled crescent with raised lip */}
-      <path d="M36 138 L204 138 Q204 144 200 148 L188 148 Q176 204 120 204 Q64 204 52 148 L40 148 Q36 144 36 138 Z" />
+      <defs>
+        <linearGradient id="psLotus" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#A7DA55" />
+          <stop offset="1" stopColor="#268A3B" />
+        </linearGradient>
+        <linearGradient id="psDrop" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#FBB03B" />
+          <stop offset=".55" stopColor="#F47A20" />
+          <stop offset="1" stopColor="#E5421E" />
+        </linearGradient>
+        <linearGradient id="psShine" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#FFF3C4" stopOpacity=".95" />
+          <stop offset="1" stopColor="#fff" stopOpacity=".1" />
+        </linearGradient>
+      </defs>
+      <g fill="url(#psLotus)">
+        <g transform="rotate(-80 50 62)">
+          <path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z" />
+        </g>
+        <g transform="rotate(-44 50 62)">
+          <path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z" />
+        </g>
+        <path d="M50 62 C41 47 41 24 50 8 C59 24 59 47 50 62 Z" />
+        <g transform="rotate(44 50 62)">
+          <path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z" />
+        </g>
+        <g transform="rotate(80 50 62)">
+          <path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z" />
+        </g>
+      </g>
+      <path
+        d="M50 16 C42 31 38 42 38 50 C38 58 43 64 50 64 C57 64 62 58 62 50 C62 42 58 31 50 16 Z"
+        fill="url(#psDrop)"
+      />
+      <path
+        d="M50 28 C46 35 44 42 44 48 C44 54 47 58 51 57 C48 52 48 45 50 39 C51 35 51 31 50 28 Z"
+        fill="url(#psShine)"
+      />
     </svg>
   );
 }

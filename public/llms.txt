@@ -1,0 +1,33 @@
+# PureSeva
+
+> PureSeva is a community food initiative based in Vijayawada, Andhra Pradesh, India. You gift a meal in your own name, and PureSeva cooks it fresh, serves it, and delivers it with care and dignity to people in need — so no one goes to sleep hungry.
+
+## About
+
+- PureSeva connects compassionate hearts with people in need through the simple act of sharing a meal.
+- When you sponsor a meal, PureSeva prepares, serves, and delivers it with care and dignity.
+- Meals are served to everyone regardless of caste, faith, language, or means.
+- Currently serving Vijayawada, with planned expansion across Andhra Pradesh and Telangana.
+
+## How It Works
+
+1. Choose your gift — pick a meal (breakfast, lunch, or dinner), a date, and a location.
+2. PureSeva cooks the meal fresh in community kitchens and serves it with care.
+3. The meal is served in your name.
+
+## Meals You Can Gift
+
+- Breakfast (అల్పాహారం) — idli, upma, or pongal with chutney and sambar.
+- Lunch (భోజనం) — rice or chapathi with sambar, rasam, curry, and curd.
+- Dinner (రాత్రి భోజనం) — rice or chapati with curry, dal, and curd.
+
+## Pages
+
+- Home: https://pureseva.in/
+- Gift a Meal: https://pureseva.in/gift
+- About Us: https://pureseva.in/about
+
+## Contact
+
+- Email: contactsus@pureseva.in
+- Location: Vijayawada, Andhra Pradesh, India

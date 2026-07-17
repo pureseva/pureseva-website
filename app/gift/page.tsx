@@ -2,9 +2,18 @@ import type { Metadata } from "next";
 import GiftForm from "@/components/GiftForm";
 
 export const metadata: Metadata = {
-  title: "Gift a Meal — PureSeva",
+  title: "Gift a Meal",
   description:
     "Choose a meal, pick a date, and PureSeva will cook and serve it in your name across Vijayawada.",
+  alternates: {
+    canonical: "/gift",
+  },
+  openGraph: {
+    title: "Gift a Meal — PureSeva",
+    description:
+      "Choose a meal, pick a date, and PureSeva will cook and serve it in your name across Vijayawada.",
+    url: "https://pureseva.in/gift",
+  },
 };
 
 export default function GiftPage() {

@@ -2,9 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us — PureSeva",
+  title: "About Us",
   description:
-    "PureSeva is a community food initiative. We exist for one reason: to make sure no one goes to sleep hungry.",
+    "PureSeva connects compassionate hearts with people in need through the simple act of sharing a meal. Learn our story, our approach, and where we serve.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "About PureSeva",
+    description:
+      "PureSeva connects compassionate hearts with people in need through the simple act of sharing a meal. Learn our story, our approach, and where we serve.",
+    url: "https://pureseva.in/about",
+  },
 };
 
 const campaignTypes = [

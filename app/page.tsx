@@ -100,11 +100,11 @@ export default function Home() {
               <br />
               made and served with care.
             </h1>
-            <div className="telugu-hero">ప్రతి పనిలో స్వచ్ఛమైన సేవ.</div>
+            <div className="telugu-hero">అన్నదానం... అందరికీ అందే ఆనందం</div>
             <p>
-              You gift a meal and we do the rest. We cook it fresh, carry it
-              across the city, and serve it warm to someone who needs it. We
-              give it in your name and ask for nothing back.
+              Gift a meal, and we&rsquo;ll take care of the rest&mdash;from the
+              kitchen to someone who truly needs it. Give with your heart.
+              We&rsquo;ll deliver it with care.
             </p>
             <Link href="/gift" className="hero-cta">
               Gift a Meal →
@@ -167,14 +167,18 @@ export default function Home() {
         <div className="img-placeholder">[ Community Photo ]</div>
         <div className="about-text">
           <div className="section-label">Our Story</div>
-          <h2>A gift you can see.</h2>
+          <h2>Every Meal is a Ray of Hope</h2>
           <p>
-            We are PureSeva, a community food initiative. We
-            exist for one reason: to make sure no one goes to sleep hungry.
+            PureSeva connects compassionate hearts with people in need through
+            the simple act of sharing a meal.
           </p>
           <p>
-            You gift a meal in your own name, and we cook and serve it for
-            you. It is a gift given freely, made and served with care.
+            When you sponsor a meal, we prepare, serve, and deliver it with care
+            and dignity. Every contribution becomes a moment of hope, reminding
+            someone they are seen, valued, and never forgotten.
+          </p>
+          <p>
+            Together, we transform generosity into lasting impact.
           </p>
           <Link href="/about">Read our full story →</Link>
         </div>
@@ -184,6 +188,13 @@ export default function Home() {
         <h2>Gift a meal today.</h2>
         <div className="telugu-cta">ఈ రోజు ఒకరికి అన్నం పెట్టండి.</div>
         <Link href="/gift">Gift a Meal →</Link>
+      </section>
+
+      <section className="reason-band">
+        <h2>Be the Reason Someone Eats Today.</h2>
+        <div className="telugu-reason">
+          ఈ రోజు ఒక ఆకలిని తీర్చండి. ఒక జీవితాన్ని తాకండి.
+        </div>
       </section>
     </main>
   );

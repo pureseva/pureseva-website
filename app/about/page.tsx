@@ -48,8 +48,13 @@ export default function AboutPage() {
         <div className="eyebrow">Our Story</div>
         <h1>A gift you can see.</h1>
         <p>
-          We are PureSeva, a community food initiative. You gift a meal, and we
-          cook and serve it for you — so no one goes to sleep hungry.
+          PureSeva connects compassionate hearts with people in need through the
+          simple act of sharing a meal.
+        </p>
+        <p>
+          When you sponsor a meal, we prepare, serve, and deliver it with care
+          and dignity. Every contribution becomes a moment of hope, reminding
+          someone they are seen, valued, and never forgotten.
         </p>
       </div>
 
@@ -104,10 +109,15 @@ export default function AboutPage() {
 
         <h2>Where We Work</h2>
         <p>
-          We primarily serve in  <strong>Andhra Pradesh</strong> and <strong>Telangana</strong>. Working
-          close to home lets us keep every promise we make. Meals arrive fresh, on
-          time, and from kitchens we know personally. As more people give, the
-          more of the region we will reach.
+          We proudly serve <strong>Vijayawada</strong>, delivering fresh, quality
+          meals with care and consistency. Our local presence helps us ensure
+          every order meets the highest standards.
+        </p>
+        <p>
+          <strong>Coming Soon:</strong> We&rsquo;re expanding across{" "}
+          <strong>Andhra Pradesh</strong> and <strong>Telangana</strong>,
+          reaching more people while maintaining the same commitment to quality
+          and service.
         </p>
 
         <h2>Contact Us</h2>

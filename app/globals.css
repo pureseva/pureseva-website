@@ -103,6 +103,11 @@ body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-web
 .cta-band a{display:inline-block;background:var(--sindoor);color:var(--khadi);padding:16px 40px;border-radius:6px;font-weight:600;font-size:16px;text-decoration:none}
 .cta-band a:hover{opacity:.9}
 
+/* ─── REASON BAND ─── */
+.reason-band{background:var(--sand);text-align:center;padding:56px 60px}
+.reason-band h2{font-family:var(--font-display);font-size:36px;font-weight:300;color:var(--bark);margin-bottom:10px}
+.reason-band .telugu-reason{font-family:var(--font-telugu);font-size:18px;color:var(--sindoor);line-height:1.4}
+
 /* ─── FOOTER ─── */
 .footer{padding:40px 60px;background:var(--bark);border-top:1px solid rgba(245,239,224,.1);display:flex;justify-content:space-between;align-items:start;color:var(--sand);font-size:13px;gap:40px;flex-wrap:wrap}
 .footer a{color:var(--sand);text-decoration:none}
@@ -157,6 +162,7 @@ body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-web
 .about-hero .eyebrow{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--sand);margin-bottom:16px}
 .about-hero h1{font-family:var(--font-display);font-size:48px;font-weight:300;color:var(--khadi);margin-bottom:12px}
 .about-hero p{font-size:17px;color:var(--sand);max-width:600px;margin:0 auto;line-height:1.6}
+.about-hero p+p{margin-top:14px}
 .about-body{padding:60px;max-width:800px;margin:0 auto}
 .about-body h2{font-family:var(--font-display);font-size:32px;font-weight:400;margin-bottom:16px;margin-top:48px}
 .about-body h2:first-child{margin-top:0}
@@ -178,7 +184,7 @@ body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-web
 @media (max-width:900px){
   .nav{padding:16px 24px}
   .nav ul{gap:18px}
-  .hero,.how,.meals,.cta-band,.about-hero{padding-left:24px;padding-right:24px}
+  .hero,.how,.meals,.cta-band,.reason-band,.about-hero{padding-left:24px;padding-right:24px}
   .hero h1{font-size:42px}
   .hero-side{display:none}
   .hero-banner{display:block;max-width:520px}
@@ -198,4 +204,5 @@ body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-web
   .hero h1{font-size:34px}
   .about-hero h1,.page-header h1{font-size:34px}
   .cta-band h2{font-size:30px}
+  .reason-band h2{font-size:26px}
 }

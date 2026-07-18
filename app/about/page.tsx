@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Us, Meal Donation Charity in Vijayawada",
   description:
-    "PureSeva connects compassionate hearts with people in need through the simple act of sharing a meal. Learn our story, our approach, and where we serve.",
+    "Learn how PureSeva feeds people in need across Vijayawada through sponsored meals. Read our story and how your meal donation reaches someone hungry.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About PureSeva",
+    title: "About Us, Meal Donation Charity in Vijayawada",
     description:
-      "PureSeva connects compassionate hearts with people in need through the simple act of sharing a meal. Learn our story, our approach, and where we serve.",
+      "Learn how PureSeva feeds people in need across Vijayawada through sponsored meals. Read our story and how your meal donation reaches someone hungry.",
     url: "https://pureseva.in/about",
   },
 };

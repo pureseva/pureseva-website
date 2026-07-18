@@ -3,7 +3,7 @@ export default function Logo() {
     <svg
       viewBox="0 0 100 76"
       role="img"
-      aria-label="PureSeva symbol — a saffron droplet resting in a green lotus"
+      aria-label="PureSeva symbol, a saffron droplet resting in a green lotus"
     >
       <title>PureSeva</title>
       <defs>

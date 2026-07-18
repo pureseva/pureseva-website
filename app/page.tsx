@@ -35,7 +35,7 @@ const steps = [
   {
     num: "1",
     title: "Choose Your Gift",
-    body: "Pick the meal you want to gift — breakfast, lunch, or dinner — then choose a date and a location that matters to you.",
+    body: "Pick the meal you want to gift, whether breakfast, lunch, or dinner, then choose a date and a location that matters to you.",
   },
   {
     num: "2",
@@ -102,7 +102,7 @@ export default function Home() {
             </h1>
             <div className="telugu-hero">అన్నదానం... అందరికీ అందే ఆనందం</div>
             <p>
-              Gift a meal, and we&rsquo;ll take care of the rest&mdash;from the
+              Gift a meal, and we&rsquo;ll take care of the rest, from the
               kitchen to someone who truly needs it. Give with your heart.
               We&rsquo;ll deliver it with care.
             </p>

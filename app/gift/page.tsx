@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import GiftForm from "@/components/GiftForm";
 
 export const metadata: Metadata = {
-  title: "Gift a Meal",
+  title: "Gift a Meal Online, Donate Food in Vijayawada",
   description:
-    "Choose a meal, pick a date, and PureSeva will cook and serve it in your name across Vijayawada.",
+    "Gift a meal online with PureSeva. Pick breakfast, lunch, or dinner, choose a date, and we cook and serve fresh food to people in need across Vijayawada.",
   alternates: {
     canonical: "/gift",
   },
   openGraph: {
-    title: "Gift a Meal — PureSeva",
+    title: "Gift a Meal Online, Donate Food in Vijayawada",
     description:
-      "Choose a meal, pick a date, and PureSeva will cook and serve it in your name across Vijayawada.",
+      "Gift a meal online with PureSeva. Pick a meal, choose a date, and we cook and serve fresh food to people in need across Vijayawada.",
     url: "https://pureseva.in/gift",
   },
 };

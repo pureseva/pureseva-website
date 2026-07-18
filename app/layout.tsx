@@ -23,21 +23,26 @@ const notoSansTelugu = Noto_Sans_Telugu({
 export const metadata: Metadata = {
   metadataBase: new URL("https://pureseva.in"),
   title: {
-    default: "PureSeva — Gift a Meal, Made and Served with Care",
-    template: "%s — PureSeva",
+    default: "Sponsor a Meal, Feed the Hungry in Vijayawada | PureSeva",
+    template: "%s | PureSeva",
   },
   description:
-    "PureSeva is a community food initiative in Vijayawada, Andhra Pradesh. You gift a meal in your name, and we cook it, serve it, and make sure no one goes to sleep hungry.",
+    "Sponsor a meal with PureSeva to feed hungry people in Vijayawada. Pick breakfast, lunch, or dinner and we cook and serve fresh food in your name.",
   keywords: [
-    "PureSeva",
-    "gift a meal",
+    "sponsor a meal",
+    "donate a meal",
     "meal donation",
     "feed the hungry",
+    "food donation",
     "annadanam",
+    "food charity Vijayawada",
+    "meal donation NGO",
+    "gift a meal",
+    "feed the poor",
+    "community kitchen",
     "Vijayawada",
     "Andhra Pradesh",
-    "food charity",
-    "sponsor a meal",
+    "PureSeva",
   ],
   applicationName: "PureSeva",
   alternates: {
@@ -48,15 +53,15 @@ export const metadata: Metadata = {
     siteName: "PureSeva",
     locale: "en_IN",
     url: "https://pureseva.in",
-    title: "PureSeva — Gift a Meal, Made and Served with Care",
+    title: "Sponsor a Meal, Feed the Hungry in Vijayawada | PureSeva",
     description:
-      "Gift a meal in your name. PureSeva cooks it fresh and serves it with care to people in need across Vijayawada, Andhra Pradesh.",
+      "Sponsor a meal and feed hungry people in Vijayawada. Choose breakfast, lunch, or dinner, and PureSeva cooks and serves fresh food in your name.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PureSeva — Gift a Meal, Made and Served with Care",
+    title: "Sponsor a Meal, Feed the Hungry in Vijayawada | PureSeva",
     description:
-      "Gift a meal in your name. PureSeva cooks it fresh and serves it with care to people in need across Vijayawada, Andhra Pradesh.",
+      "Sponsor a meal and feed hungry people in Vijayawada. Choose breakfast, lunch, or dinner, and PureSeva cooks and serves fresh food in your name.",
   },
   robots: {
     index: true,

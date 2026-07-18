@@ -5,7 +5,7 @@ import { useState } from "react";
 // PureSeva WhatsApp number (country code + number, digits only).
 const WHATSAPP_NUMBER = "917013285018";
 
-// Google Apps Script Web App URL — logs each submission to the Google Sheet.
+// Google Apps Script Web App URL logs each submission to the Google Sheet.
 // Setup instructions: see google-apps-script.gs in the project root.
 // Leave empty to disable sheet logging.
 const SHEETS_WEBHOOK_URL =
@@ -141,7 +141,7 @@ export default function GiftForm() {
       });
     }
     const lines = [
-      "New meal gift request — PureSeva",
+      "New meal gift request for PureSeva",
       "",
       `Name: ${name}`,
       `Phone: ${phone}`,

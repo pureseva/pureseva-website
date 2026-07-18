@@ -131,8 +131,8 @@ export default function AboutPage() {
 
         <h2>Contact Us</h2>
         <p>
-          <a href="mailto:contactsus@pureseva.in">contactsus@pureseva.in</a> · +91
-          XXXXX XXXXX
+          <a href="mailto:contactsus@pureseva.in">contactsus@pureseva.in</a> ·{" "}
+          <a href="tel:+919391563600">+91 93915 63600</a>
           <br />
           Vijayawada, Andhra Pradesh, India
         </p>

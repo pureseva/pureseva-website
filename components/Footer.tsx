@@ -55,7 +55,9 @@ export default function Footer() {
           <p>
             <a href="mailto:contactsus@pureseva.in">contactsus@pureseva.in</a>
           </p>
-          <p>+91 XXXXX XXXXX</p>
+          <p>
+            <a href="tel:+919391563600">+91 93915 63600</a>
+          </p>
           <p>Vijayawada, Andhra Pradesh, India</p>
         </div>
       </div>

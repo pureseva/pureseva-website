@@ -118,6 +118,17 @@ body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-web
 .footer .cols{display:flex;gap:60px}
 .footer .col h4{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--khadi);margin-bottom:10px}
 .footer .col p,.footer .col a{display:block;margin-bottom:4px;line-height:1.5}
+.footer-socials{display:flex;gap:12px;margin-top:14px}
+.footer-socials a{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(245,239,224,.08);color:var(--sand);margin-bottom:0;transition:background .18s ease,color .18s ease}
+.footer-socials a:hover{background:var(--sindoor);color:var(--khadi)}
+
+/* ─── WHATSAPP FLOAT ─── */
+.whatsapp-float{position:fixed;right:24px;bottom:24px;z-index:100;display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:50%;background:#25D366;color:#fff;box-shadow:0 6px 20px rgba(0,0,0,.25);transition:transform .18s ease,box-shadow .18s ease}
+.whatsapp-float:hover{transform:scale(1.08);box-shadow:0 8px 26px rgba(0,0,0,.32);color:#fff}
+.whatsapp-float svg{display:block}
+@media (max-width:520px){
+  .whatsapp-float{right:16px;bottom:16px;width:52px;height:52px}
+}
 
 /* ─── PAGE HEADER (Gift) ─── */
 .page-header{background:var(--bark);text-align:center;padding:60px 60px 48px}

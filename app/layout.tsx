@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Inter, Noto_Sans_Telugu } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -83,6 +84,7 @@ export default function RootLayout({
         <Nav />
         {children}
         <Footer />
+        <WhatsAppFloat />
       </body>
     </html>
   );

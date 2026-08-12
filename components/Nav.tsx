@@ -6,11 +6,7 @@ export default function Nav() {
     <>
       <nav className="nav">
         <Link href="/" className="nav-logo">
-          <Logo />
-          <div>
-            <span className="name">PureSeva</span>
-            <span className="telugu">ప్యూర్ సేవ</span>
-          </div>
+          <Logo height={72} priority />
         </Link>
         <ul>
           <li>

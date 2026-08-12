@@ -1,49 +1,31 @@
-export default function Logo() {
+import Image from "next/image";
+
+// Intrinsic size of public/logo/pureseva-logo.webp — the source artwork with
+// its empty margin cropped off, nothing re-laid or recoloured.
+const W = 1200;
+const H = 824;
+
+/**
+ * The full PureSeva logo: mark above the "Pure Seva" wordmark, as drawn.
+ *
+ * This carries the brand name itself, so it is the accessible name of whatever
+ * link wraps it — hence a real alt rather than an empty one.
+ */
+export default function Logo({
+  height = 72,
+  priority = false,
+}: {
+  height?: number;
+  priority?: boolean;
+}) {
   return (
-    <svg
-      viewBox="0 0 100 76"
-      role="img"
-      aria-label="PureSeva symbol, a saffron droplet resting in a green lotus"
-    >
-      <title>PureSeva</title>
-      <defs>
-        <linearGradient id="psLotus" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#A7DA55" />
-          <stop offset="1" stopColor="#268A3B" />
-        </linearGradient>
-        <linearGradient id="psDrop" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#FBB03B" />
-          <stop offset=".55" stopColor="#F47A20" />
-          <stop offset="1" stopColor="#E5421E" />
-        </linearGradient>
-        <linearGradient id="psShine" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#FFF3C4" stopOpacity=".95" />
-          <stop offset="1" stopColor="#fff" stopOpacity=".1" />
-        </linearGradient>
-      </defs>
-      <g fill="url(#psLotus)">
-        <g transform="rotate(-80 50 62)">
-          <path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z" />
-        </g>
-        <g transform="rotate(-44 50 62)">
-          <path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z" />
-        </g>
-        <path d="M50 62 C41 47 41 24 50 8 C59 24 59 47 50 62 Z" />
-        <g transform="rotate(44 50 62)">
-          <path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z" />
-        </g>
-        <g transform="rotate(80 50 62)">
-          <path d="M50 62 C43 51 43 33 50 20 C57 33 57 51 50 62 Z" />
-        </g>
-      </g>
-      <path
-        d="M50 16 C42 31 38 42 38 50 C38 58 43 64 50 64 C57 64 62 58 62 50 C62 42 58 31 50 16 Z"
-        fill="url(#psDrop)"
-      />
-      <path
-        d="M50 28 C46 35 44 42 44 48 C44 54 47 58 51 57 C48 52 48 45 50 39 C51 35 51 31 50 28 Z"
-        fill="url(#psShine)"
-      />
-    </svg>
+    <Image
+      src="/logo/pureseva-logo.webp"
+      alt="PureSeva"
+      width={Math.round((W / H) * height)}
+      height={height}
+      priority={priority}
+      className="brand-mark"
+    />
   );
 }

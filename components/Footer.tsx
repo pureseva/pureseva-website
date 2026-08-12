@@ -6,8 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div>
         <Link href="/" className="footer-logo">
-          <Logo />
-          <span>PureSeva</span>
+          <Logo height={56} />
         </Link>
         <p>Pure seva, made and served with care.</p>
         <div className="footer-socials">

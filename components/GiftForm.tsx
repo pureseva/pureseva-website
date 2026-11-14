@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 // PureSeva WhatsApp number (country code + number, digits only).
-const WHATSAPP_NUMBER = "917013285018";
+const WHATSAPP_NUMBER = "918374556399";
 
 // Google Apps Script Web App URL logs each submission to the Google Sheet.
 // Setup instructions: see google-apps-script.gs in the project root.

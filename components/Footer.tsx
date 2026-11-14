@@ -31,7 +31,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://wa.me/917386893840"
+            href="https://wa.me/918374556399"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="PureSeva on WhatsApp"
@@ -55,7 +55,7 @@ export default function Footer() {
             <a href="mailto:contactsus@pureseva.in">contactsus@pureseva.in</a>
           </p>
           <p>
-            <a href="tel:+919391563600">+91 93915 63600</a>
+            <a href="tel:+918374556399">+91 83745 56399</a>
           </p>
           <p>Vijayawada, Andhra Pradesh, India</p>
         </div>

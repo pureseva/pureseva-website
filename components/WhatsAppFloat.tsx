@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "917386893840";
+const WHATSAPP_NUMBER = "918374556399";
 const PREFILLED_MESSAGE =
   "Hi PureSeva, I would like to know more about gifting a meal.";
 

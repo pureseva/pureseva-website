@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" role="img" aria-label="Pure Seva logo">
+  <defs>
+    <clipPath id="ps-topX"><circle cx="228" cy="212" r="42"/></clipPath>
+  </defs>
+  <rect width="520" height="640" fill="#000000"/>
+  <g transform="rotate(13 255 226)">
+    <rect x="169" y="121" width="156" height="156" rx="46" transform="rotate(45 247 199)"
+          fill="none" stroke="#2E9E42" stroke-width="24" stroke-linejoin="round"/>
+    <rect x="195" y="175" width="156" height="156" rx="46" transform="rotate(45 273 253)"
+          fill="none" stroke="#2E9E42" stroke-width="24" stroke-linejoin="round"/>
+    <rect x="169" y="121" width="156" height="156" rx="46" transform="rotate(45 247 199)"
+          fill="none" stroke="#2E9E42" stroke-width="24" stroke-linejoin="round" clip-path="url(#ps-topX)"/>
+  </g>
+  <path fill="#F5871E" fill-rule="evenodd" d="M260 154
+    C299 204 301 251 260 298
+    C219 251 221 204 260 154 Z
+    M260 204
+    C281 234 281 260 260 290
+    C239 260 239 234 260 204 Z"/>
+  <text x="260" y="470" text-anchor="middle" font-family="Montserrat, Poppins, 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="70" letter-spacing="3">
+    <tspan fill="#2E9E42">PURE</tspan><tspan dx="26" fill="#F5871E">SEVA</tspan>
+  </text>
+</svg>

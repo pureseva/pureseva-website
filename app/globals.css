@@ -20,10 +20,12 @@ html{scroll-behavior:smooth}
 body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-webkit-font-smoothing:antialiased}
 
 /* ─── NAV ─── */
-.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 60px;background:var(--bark)}
-.nav-logo{display:flex;align-items:center;gap:14px;color:var(--khadi);text-decoration:none}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 60px;background:var(--bark)}
+/* The logo is drawn in dark green and orange, so it needs a light ground to sit
+   on. A cream disc gives it one without lightening the whole bar. */
+.nav-logo{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:72px;height:72px;border-radius:50%;background:var(--khadi);color:var(--khadi);text-decoration:none}
 .brand-mark{display:block;flex-shrink:0;width:auto}
-.nav-logo .brand-mark{height:72px}
+.nav-logo .brand-mark{width:57px;height:auto}
 .nav ul{list-style:none;display:flex;gap:32px;align-items:center}
 .nav a{color:var(--khadi);text-decoration:none;font-size:14px;font-weight:500;letter-spacing:.04em}
 .nav ul a:hover{color:var(--sand)}
@@ -111,8 +113,8 @@ body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-web
 .footer{padding:40px 60px;background:var(--bark);border-top:1px solid rgba(245,239,224,.1);display:flex;justify-content:space-between;align-items:start;color:var(--sand);font-size:13px;gap:40px;flex-wrap:wrap}
 .footer a{color:var(--sand);text-decoration:none}
 .footer a:hover{color:var(--khadi)}
-.footer .footer-logo{display:flex;align-items:center;gap:10px;color:var(--khadi);margin-bottom:8px}
-.footer-logo .brand-mark{height:56px}
+.footer .footer-logo{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:72px;height:72px;border-radius:50%;background:var(--khadi);color:var(--khadi);margin-bottom:12px}
+.footer-logo .brand-mark{width:57px;height:auto}
 .footer .cols{display:flex;gap:60px}
 .footer .col h4{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--khadi);margin-bottom:10px}
 .footer .col p,.footer .col a{display:block;margin-bottom:4px;line-height:1.5}
@@ -191,7 +193,7 @@ body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-web
   .hero-side{flex-basis:280px}
 }
 @media (max-width:900px){
-  .nav{padding:16px 24px}
+  .nav{padding:10px 24px}
   .nav ul{gap:18px}
   .hero,.how,.meals,.cta-band,.reason-band,.about-hero{padding-left:24px;padding-right:24px}
   .hero h1{font-size:42px}
@@ -209,7 +211,13 @@ body{font-family:var(--font-body);color:var(--bark);background:var(--khadi);-web
   .menu-grid,.locations{grid-template-columns:1fr}
 }
 @media (max-width:520px){
-  .nav{flex-direction:column;gap:14px}
+  /* Logo stays on the same row as the menu — shrink the parts to make it fit. */
+  .nav{padding:8px 16px}
+  .nav-logo{width:58px;height:58px}
+  .nav-logo .brand-mark{width:46px}
+  .nav ul{gap:14px}
+  .nav a{font-size:13px}
+  .nav .cta-btn{padding:9px 14px}
   .hero h1{font-size:34px}
   .about-hero h1,.page-header h1{font-size:34px}
   .cta-band h2{font-size:30px}

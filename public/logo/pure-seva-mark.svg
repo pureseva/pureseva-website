@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="95 70 330 320" role="img" aria-label="Pure Seva mark">
+  <defs>
+    <clipPath id="psm-topX"><circle cx="228" cy="212" r="42"/></clipPath>
+  </defs>
+  <g transform="rotate(13 255 226)">
+    <rect x="169" y="121" width="156" height="156" rx="46" transform="rotate(45 247 199)"
+          fill="none" stroke="#2E9E42" stroke-width="24" stroke-linejoin="round"/>
+    <rect x="195" y="175" width="156" height="156" rx="46" transform="rotate(45 273 253)"
+          fill="none" stroke="#2E9E42" stroke-width="24" stroke-linejoin="round"/>
+    <rect x="169" y="121" width="156" height="156" rx="46" transform="rotate(45 247 199)"
+          fill="none" stroke="#2E9E42" stroke-width="24" stroke-linejoin="round" clip-path="url(#psm-topX)"/>
+  </g>
+  <path fill="#F5871E" fill-rule="evenodd" d="M260 154
+    C299 204 301 251 260 298
+    C219 251 221 204 260 154 Z
+    M260 204
+    C281 234 281 260 260 290
+    C239 260 239 234 260 204 Z"/>
+</svg>

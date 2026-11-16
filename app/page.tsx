@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import HeroCarousel from "@/components/HeroCarousel";
 
@@ -54,19 +55,22 @@ const meals = [
     title: "Breakfast",
     telugu: "అల్పాహారం",
     body: "Idli, upma, or pongal with chutney and sambar. A warm, filling start to the day.",
-    photo: "[ Breakfast Photo ]",
+    photo: "/home/meal-breakfast.jpg",
+    photoAlt: "Idlis with sambar, chutneys and coffee laid out on a banana leaf",
   },
   {
     title: "Lunch",
     telugu: "భోజనం",
     body: "A full meal with rice or chapathi, sambar, rasam, curry, and curd, cooked and served the same day.",
-    photo: "[ Lunch Photo ]",
+    photo: "/home/meal-lunch.jpg",
+    photoAlt: "A South Indian lunch on a banana leaf with rice, dal, papad and side dishes",
   },
   {
     title: "Dinner",
     telugu: "రాత్రి భోజనం",
     body: "Rice or chapati with curry, dal, and curd. A simple, satisfying end to the day.",
-    photo: "[ Dinner Photo ]",
+    photo: "/home/meal-dinner.jpg",
+    photoAlt: "A dinner plate with rice, chapati, curries and salad",
   },
 ];
 
@@ -143,7 +147,14 @@ export default function Home() {
         <div className="meal-cards">
           {meals.map((meal) => (
             <div className="meal-card" key={meal.title}>
-              <div className="img-placeholder">{meal.photo}</div>
+              <div className="photo">
+                <Image
+                  src={meal.photo}
+                  alt={meal.photoAlt}
+                  fill
+                  sizes="(max-width: 900px) 100vw, 300px"
+                />
+              </div>
               <div className="card-body">
                 <h3>{meal.title}</h3>
                 <div className="telugu-label">{meal.telugu}</div>
